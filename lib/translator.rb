@@ -5,7 +5,6 @@ emoticons = YAML.load_file('lib/emoticons.yml')
 def load_library(emoticons)
   # code goes here
   hash = {get_meaning: {}, get_emoticon: {}}
-  binding.pry
   hash
 end
 
